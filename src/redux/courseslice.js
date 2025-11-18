@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { useRouteLoaderData } from "react-router-dom";
-
 
  const courseslice = createSlice( { 
     name: "course",
