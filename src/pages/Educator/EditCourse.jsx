@@ -8,7 +8,7 @@ import { serverUrl } from '../../App';
 import { toast } from 'react-toastify';
 import { ClipLoader } from 'react-spinners';
 import { useDispatch, useSelector } from 'react-redux';
-import { setCourseData } from '../../redux/courseSlice';
+import { setCourseData } from '../../redux/courseslice';
 
 
 function EditCourse() {
