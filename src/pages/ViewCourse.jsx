@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
-import { setSelectedCourse } from '../redux/courseSlice';
+import { setSelectedCourse } from '../redux/courseslice.js';
 import img from "../assets/empty.jpg"
 import { IoStar } from "react-icons/io5";
 import { FaPlayCircle } from "react-icons/fa";
