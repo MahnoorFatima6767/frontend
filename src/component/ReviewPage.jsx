@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import ReviewCard from './reviewcard'
+import ReviewCard from './ReviewCard'
 
 function ReviewPage() {
     const {reviewData}= useSelector(state=>state.review)
