@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { serverUrl } from "../App.jsx"; // ✅ make sure you import this
-import { setCreatorCourseData } from "../redux/courseSlice.js";
+import { setCreatorCourseData } from "../redux/courseSlice";
 
 function useGetCreatorCourses() {
   const dispatch = useDispatch();
