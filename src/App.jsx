@@ -9,7 +9,7 @@ import EditProfile from './pages/EditProfile';
 import Courses from './pages/Educator/Courses';
 import Dashboard from './pages/Educator/dashboard'; // ✅ make sure this file exists
 
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://learning-hub-backend-main.onrender.com";
 
 import { ToastContainer } from 'react-toastify';
 import useGetUser from './customhook/getuser';
