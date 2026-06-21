@@ -156,7 +156,7 @@ const googleloginhandler = async () => {
           {/* Google button */}
           <div
             onClick={googleloginhandler}
-            className="w-[80%] h-[40px] border border-black rounded-md flex items-center justify-center cursor-pointer hover:bg-gray-100"
+            className=" hidden w-[80%] h-[40px] border border-black rounded-md flex items-center justify-center cursor-pointer hover:bg-gray-100"
           >
             <img src={google} className="w-[20px]" alt="Google" />
             <span className="ml-2 text-base text-gray-600 font-medium">
